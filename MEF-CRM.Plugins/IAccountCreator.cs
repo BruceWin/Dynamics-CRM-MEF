@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 
 namespace MEFCRM.Plugins
 {
+	/* Responsible for Creating an Account in CRM */
     interface IAccountCreator
     {
         void CreateAccount();
